@@ -36,7 +36,10 @@
             clifford: '#da373d',
             'green-arr': '#ABEF5F',
             'green-arr-btn': '#ABEF5F80',
-
+            'card-1': '#E7C1D3',
+            'card-2': '#EFDA6E',
+            'card-3': '#A4DAC3',
+            'card-4': '#77AAEA',
           }
         }
       }
@@ -178,7 +181,8 @@
 
     <!-- stats section -->
     <section class="bg-slate-200 lg:container grid justify-center">
-      <div class=" bg-white rounded-3xl flex flex-col lg:flex-row items-center text-center px-14 py-8 lg:gap-x-16 lg:ml-4 lg:mt-12 mb-12">
+      <div
+        class=" bg-white rounded-3xl flex flex-col lg:flex-row items-center text-center px-14 py-8 lg:gap-x-16 lg:ml-4 lg:mt-12 mb-12">
         <div class="status px-14 space-y-3 py-5">
           <i class="fa-solid fa-comment fa-2xl" style="color: #787a7d;"></i>
           <h4 class="text-3xl font-extrabold lg:text-4xl">235+</h4>
@@ -198,6 +202,63 @@
           <i class="fa-solid fa-user-group fa-2xl" style="color: #787a7d;"></i>
           <h4 class="text-3xl font-extrabold lg:text-4xl">307+</h4>
           <p class="font-medium">Staff Members</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Work Process section -->
+    <section class="bg-slate-200">
+      <div class="flex flex-col items-center justify-center py-10">
+        <button class="bg-white px-5 rounded-3xl py-2 flex justify-center items-center gap-2 btn-ghost">
+          <i class="fa-solid fa-arrow-right" style="color: #0d0d0d;"></i>
+          <p>How we work</p>
+        </button>
+        <div class="work-process grid items-center space-y-3 my-6 px-7">
+          <h3 class="text-2xl font-bold text-center">Our Works Process</h3>
+          <p class="text-sm font-medium text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <div class="work-cards space-y-6 px-7 lg:flex lg:space-y-0 lg:gap-x-5 lg:px-28 lg:ml-3">
+          <div class="card bg-card-1  shadow-xl hover:bg-pink-300 ">
+            <div class="card-body flex flex-col gap-x-4">
+              <img src="assets/concept.png" alt="" class="w-9 h-9">
+              <div class="space-y-4">
+                <h2 class="card-title text-xl font-extrabold">Concept</h2>
+                <p class="font-medium">The barn house captivates with its blend of rustic charm and modern sophistication,
+                  featuring weathered wood, sleek metal accents.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-card-2 shadow-xl hover:bg-yellow-200">
+            <div class="card-body flex flex-col gap-x-4">
+              <img src="assets/flow-chart.png" alt="" class="w-9 h-9">
+              <div class="space-y-4">
+                <h2 class="card-title text-xl font-extrabold">Design Process</h2>
+                <p class="font-medium">The barn house captivates with its blend of rustic charm and modern sophistication,
+                  featuring weathered wood, sleek metal accents.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-card-3 shadow-xl hover:bg-emerald-200">
+            <div class="card-body flex flex-col gap-x-4">
+              <img src="assets/vision.png" alt="" class="w-9 h-9">
+              <div class="space-y-4">
+                <h2 class="card-title text-xl font-extrabold">Supervision</h2>
+                <p class="font-medium">The barn house captivates with its blend of rustic charm and modern sophistication,
+                  featuring weathered wood, sleek metal accents.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-card-4 shadow-xl hover:bg-sky-300">
+            <div class="card-body flex flex-col gap-x-4">
+              <img src="assets/budget-planning.png" alt="" class="w-9 h-9">
+              <div class="space-y-4">
+                <h2 class="card-title text-xl font-extrabold">Budget Planning</h2>
+                <p class="font-medium">The barn house captivates with its blend of rustic charm and modern sophistication,
+                  featuring weathered wood, sleek metal accents.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
