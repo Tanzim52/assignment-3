@@ -40,6 +40,7 @@
             'card-2': '#EFDA6E',
             'card-3': '#A4DAC3',
             'card-4': '#77AAEA',
+            'port-bg': 'rgba(171, 239, 95, 0.2)',
           }
         }
       }
@@ -116,7 +117,7 @@
             sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with
             natural light.</p>
           <div class="card-actions">
-            <button class="btn bg-green-arr-btn px-28">
+            <button class="btn bg-green-arr-btn px-28 rounded-3xl">
               View Details
               <i class="fa-solid fa-arrow-right fa-rotate-by bg-green-arr p-2 rounded-full"
                 style="color: #000000; --fa-rotate-angle: 315deg; bg-""></i>
@@ -264,7 +265,58 @@
     </section>
 
 
-
+    <!-- Portfolio Section -->
+     <section class="bg-slate-100 py-11">
+      <div class="flex flex-col items-center justify-center px-5 gap-5">
+        <div class="flex justify-center"><button class="bg-port-bg px-5 rounded-3xl py-2 flex justify-center items-center gap-2 btn-ghost">
+          <i class="fa-solid fa-arrow-right" style="color: #0d0d0d;"></i>
+          <p class="font-bold">Explore our Latest works</p>
+        </button></div>
+        <div class="lg:w-1/2">
+          <div class="flex flex-col items-center justify-center">
+            <h3 class="text-2xl font-bold">Our Latest Portfolio</h3>
+            <p class="text-center text-sm font-medium">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          </div>
+        </div>
+        <div class="port-main-container space-y-7 lg:space-y-0 lg:grid lg:grid-flow-row lg:grid-cols-12 lg:px-20 lg:gap-7">
+          <div class="lg:col-span-8">
+            <div class="bg-white p-6 border-solid border border-gray-400 rounded-2xl space-y-3 lg:space-y-0 lg:flex lg:items-center lg:gap-6">
+              <img src="assets/img1.png" alt="" class="w-full lg:h-full">
+              <div class="space-y-3">
+                <h3 class="text-xl font-extrabold">Commercial</h3>
+                <p class="font-medium">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                <button class="font-extrabold">
+                  View Details
+                  <i class="fa-solid fa-arrow-right fa-rotate-by bg-green-arr p-2 rounded-full"
+                    style="color: #000000; --fa-rotate-angle: 315deg; bg-""></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white p-6 border-solid border border-gray-400 rounded-2xl lg:col-span-4">
+            <img src="assets/img2.png" alt="" class="w-full lg:h-full">
+          </div>
+          <div class="bg-white p-6 border-solid border border-gray-400 rounded-2xl lg:col-span-3">
+            <img src="assets/img3.png" alt="" class="w-full">
+          </div>
+          <div class="bg-white p-6 border-solid border border-gray-400 rounded-2xl space-y-3 lg:space-y-0 lg:col-span-6 lg:flex lg:items-center lg:gap-6">
+            <img src="assets/img4.png" alt="" class="w-full lg:w-fit">
+            <div class="space-y-3">
+              <h3 class="text-xl font-extrabold">Commercial</h3>
+              <p class="font-medium">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+              <button class="font-extrabold">
+                View Details
+                <i class="fa-solid fa-arrow-right fa-rotate-by bg-green-arr p-2 rounded-full"
+                  style="color: #000000; --fa-rotate-angle: 315deg; bg-""></i>
+              </button>
+            </div>
+          </div>
+          <div class="bg-white p-6 border-solid border border-gray-400 rounded-2xl lg:col-span-3">
+            <img src="assets/img5.png" alt="" class="w-full lg:h-full">
+          </div>
+        </div>
+      </div>
+     </section>
     </main>
 
     <!-- footer section -->
